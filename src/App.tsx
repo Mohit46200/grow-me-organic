@@ -92,6 +92,8 @@ function App() {
             <DataTable
                 value={data}
                 dataKey="id"
+                selectionMode="multiple"
+
                 selection={selectedRows}
                 onSelectionChange={(e) => setSelectedRows(e.value)}
                 tableStyle={{ minWidth: '60rem' }}
