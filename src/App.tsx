@@ -113,7 +113,7 @@ function App() {
                     marginTop: '1.5rem',
                     display: 'flex',
                     justifyContent: 'center',
-                    gap: '1rem'
+                    gap: '1.5rem'
                 }}
             >
                 <button onClick={() => setPage(p => Math.max(p - 1, 1))}>
